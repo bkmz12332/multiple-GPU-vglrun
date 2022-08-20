@@ -1,7 +1,4 @@
 #!/bin/bash
-
-cat <<EOF > /etc/profile.d/gpu_vgl.sh
-#!/bin/bash
 gpu(){
 
 declare -a MEMORY_LIST=( $(nvidia-smi -q -d MEMORY  | grep -C 3 FB | grep Used | awk '{print $3}') )
@@ -25,4 +22,3 @@ unset x
 unset i
 unset j
 }
-EOF
