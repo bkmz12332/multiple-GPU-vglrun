@@ -52,8 +52,9 @@ For example Nvidia Tesla M60
 copy gpu_vgl.sh script to /etc/profile.d and restart bash terminal
 
 ## USE
-In bash terminal start glxgears or other 3D app
-For example Nvidia Tesla M60
+In bash terminal start glxgears or other 3D app.
+
+For example
 
 
 ```
